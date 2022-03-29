@@ -4,7 +4,7 @@
                 " vielen Dank, dass Sie sich kurz Zeit nehmen, um unserem Service zu bewerten. Mit nur sieben kurzen Antworten, können sie mitthelfen, dass unser Service enorm verbessert wird. <br>" + 
                 "Bitte bewerten Sie auch den Bearbeiter, der ihr Ticket gelöst hat. In diesem fall ist es Herr/Frau " + bearbeiter + ". <br><br>" +
                 "Vielen Dank :) <br>" +
-                "Ihr Serviceteam" + unternehmen + ticket + id;
+                "Ihr Serviceteam" + unternehmen + ticket + id + "HALLO";
 
 
 function createEmail() {
