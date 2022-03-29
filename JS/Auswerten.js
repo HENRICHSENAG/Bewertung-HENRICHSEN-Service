@@ -36,8 +36,8 @@ function createEmail() {
 }
                               
 function sendEmail( name, unternehmen, ticket, bearbeiter, anrede, Bearbeitungszeit, Lösung, Freundlichkeit, Klarheit, Schwierigkeit, Verbesserungen, Sterne, mail) {
-
-    Email.send({
+    alert(mail);
+   /* Email.send({
     Host: "smtp.gmail.com",
     Username: "noreplayhen@gmail.com",
     Password: "Email123!",
@@ -48,7 +48,7 @@ function sendEmail( name, unternehmen, ticket, bearbeiter, anrede, Bearbeitungsz
             "Bearbeitungszeit: " + Bearbeitungszeit + "<br> L&ouml;sung: " + Lösung + "<br> Freundlichkeit: " + Freundlichkeit + "<br> Klarheit: " + Klarheit + "<br> Schwierigkeit: " + Schwierigkeit + "<br> Verbesserungen: " + Verbesserungen + "<br> Sternebewertung: " + Sterne + " Sterne",
 
             
-   })
+   })*/
 
    
 }  
