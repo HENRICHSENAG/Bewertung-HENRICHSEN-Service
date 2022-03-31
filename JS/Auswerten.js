@@ -56,14 +56,14 @@ function sendEmail( name, unternehmen, ticket, bearbeiter, anrede, Bearbeitungsz
             
    })
 
-   alert("EMAIL SEND TO " + mail);
+
 }  
 
 
 
 function createLink(id, Sterne) {
-   /* var Link ="https://henrichsen.topdesk.net/solutions/five-star-review-1/process/" + id + "/" + Sterne + "/TcmtnqxCxR_EfAeEyw2K53ypMz_23UhCa2ZRq2_QF62qb1VqEiVGqS9mqGJPI_5T9wWlf2YSoUC_ywhLuiTNBg";
-    window.open(Link);*/
-    alert("INSERT TOPDESK");
+    var Link ="https://henrichsen.topdesk.net/solutions/five-star-review-1/process/" + id + "/" + Sterne + "/TcmtnqxCxR_EfAeEyw2K53ypMz_23UhCa2ZRq2_QF62qb1VqEiVGqS9mqGJPI_5T9wWlf2YSoUC_ywhLuiTNBg";
+    window.open(Link);
+    
 }
 
