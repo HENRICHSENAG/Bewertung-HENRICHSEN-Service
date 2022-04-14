@@ -50,7 +50,7 @@ function createEmail() {
         createLink(id, Sterne);
     }
     else  {
-        document.getElementById("star").innerHTML = "Bitte Sternebewertung abgeben" ;
+        document.getElementById("star").innerHTML = "Ups... Sternebewertung vergessen 1F609" ;
     }    
 }
                               
