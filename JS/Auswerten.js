@@ -1,7 +1,7 @@
 
                 // Begrüßungstext für Kunde
                 document.getElementById("kunde").innerHTML ="Hallo " + anrede + " " + name + ", <br><br>" +
-                "unser wichtiges Feedback kommt von Ihnen. <br>" +
+                "unser wichtigstes Feedback kommt von Ihnen. <br>" +
                 "Mit sieben schnellen Antworten helfen Sie uns, unseren Service f&uuml;r Sie fortw&auml;hrend zu optimieren und Ihre Anforderungen und Erwartungen (noch) besser erf&uuml;llen zu k&ouml;nnen. <br>" +
                 bearbeiter + " und das gesamte Service-Team freuen sich auf Ihre R&uuml;ckmeldung. <br><br>" +
                 "Ihr HENRICHSEN Servicemanagement <br>" + 
