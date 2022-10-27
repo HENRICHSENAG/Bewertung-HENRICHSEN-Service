@@ -58,10 +58,10 @@ function sendEmail( name, unternehmen, ticket, bearbeiter, anrede, Bearbeitungsz
 
     Email.send({
     Host: "smtp.gmail.com",
-    Username: "noreplayhen@gmail.com",
-    Password: "Email123!",
-    To: mail + ", support@henrichsen.de, jeannette.bastian@henrichsen.de, christian.sagmeister@henrichsen.de, andre.baltheiser@henrichsen.de",
-    From: "noreplayhen@gmail.com",
+    Username: "noreplyantwort@gmail.com",
+    Password: "Henrichsen010?",
+    To: "bastian.adam@henrichsen.de",//mail + ", support@henrichsen.de, jeannette.bastian@henrichsen.de, christian.sagmeister@henrichsen.de, andre.baltheiser@henrichsen.de",
+    From: "noreplyantwort@gmail.com",
     Subject: ticket + " wurde bewertet",
     Body:  " Alle Daten: <br><br> Name: " + anrede + " " + name + " <br> Unternehmen: " + unternehmen + "<br> Ticketnummer: " + ticket + "<br> Bearbeiter: " + bearbeiter + "<br> <br> Ergebnis: <br> <br> " + 
         
